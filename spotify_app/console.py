@@ -1,7 +1,4 @@
-from src.client import *
-from src.artist import *
-from src.audio import *
-from src.track import *
+
 
 token = get_access_token(client_id, client_secret)
 
