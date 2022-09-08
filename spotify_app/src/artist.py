@@ -1,4 +1,4 @@
-
+from src.client import *
 
 
 def artist_search_url(artist_name, token):

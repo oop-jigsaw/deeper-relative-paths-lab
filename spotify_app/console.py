@@ -1,4 +1,7 @@
-
+from src.client import *
+from src.artist import *
+from src.track import *
+from src.audio import *
 
 token = get_access_token(client_id, client_secret)
 
@@ -30,4 +33,3 @@ artist_name = 'paul simon'
 
 paul_simon_data = get_artist(artist_name, token)
 
-top_tracks_info = get_top_tracks(artist_name, token)

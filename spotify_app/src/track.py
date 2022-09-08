@@ -1,4 +1,4 @@
-
+from src.artist import * 
 
 def top_tracks_url(artist_id, token):
     track_search = f'https://api.spotify.com/v1/artists/{artist_id}/top-tracks?country=US'
