@@ -18,5 +18,5 @@ def get_top_tracks(artist_name, token):
     
     track_search = top_tracks_url(artist_id, token)
     track_resp = make_request(token, track_search)
-    track_info = extract_track_info(track_resp, keys = ['name', 'id', 'popularity'])
+    track_info = extract_tracks_info(track_resp['tracks'], keys = ['name', 'id', 'popularity'])
     return track_info
